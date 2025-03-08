@@ -10,13 +10,13 @@ spec:
   requires: ">=2.20.0"
   author:
     name: Halo
-    website: https://github.com/halo-dev
+    website: https://github.com/chengzequn
   logo: logo.png
-  homepage: https://github.com/halo-dev/plugin-starter#readme
-  repo: https://github.com/halo-dev/plugin-starter
-  issues: https://github.com/halo-dev/plugin-starter/issues
+  homepage: https://github.com/chengzequn/halo-plugin-sync#readme
+  repo: https://github.com/chengzequn/halo-plugin-sync
+  issues: https://github.com/chengzequn/halo-plugin-sync/issues
   displayName: "插件快速开始模板"
   description: "这是一个插件快速开始模板"
   license:
     - name: "GPL-3.0"
-      url: "https://github.com/halo-dev/plugin-starter/blob/main/LICENSE"
+      url: "https://github.com/chengzequn/halo-plugin-sync/blob/main/LICENSE"
