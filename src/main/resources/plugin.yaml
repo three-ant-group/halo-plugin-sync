@@ -15,8 +15,8 @@ spec:
   homepage: https://github.com/chengzequn/halo-plugin-sync#readme
   repo: https://github.com/chengzequn/halo-plugin-sync
   issues: https://github.com/chengzequn/halo-plugin-sync/issues
-  displayName: "插件快速开始模板"
-  description: "这是一个插件快速开始模板"
+  displayName: "文章同步插件"
+  description: "这是一个文章同步插件，用来同步其他网站的文章到Halo"
   license:
     - name: "GPL-3.0"
       url: "https://github.com/chengzequn/halo-plugin-sync/blob/main/LICENSE"
