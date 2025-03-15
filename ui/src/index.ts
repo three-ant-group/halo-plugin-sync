@@ -1,23 +1,24 @@
 import { definePlugin } from "@halo-dev/console-shared";
-import HomeView from "./views/HomeView.vue";
 import { IconPlug } from "@halo-dev/components";
 import { markRaw } from "vue";
+import BlogSyncView from "@/views/BlogSyncView.vue";
 
 export default definePlugin({
   components: {},
   routes: [
     {
-      parentName: "Root",
+      parentName: "ToolsRoot",
       route: {
-        path: "/example",
-        name: "Example",
-        component: HomeView,
+        //浏览器路径
+        path: "/blog-sync",
+        name: "blogSync",
+        component: BlogSyncView,
         meta: {
-          title: "示例页面",
+          title: "博客同步",
           searchable: true,
           menu: {
-            name: "示例页面",
-            group: "示例分组",
+            name: "博客同步",
+            group: "tool",
             icon: markRaw(IconPlug),
             priority: 0,
           },
