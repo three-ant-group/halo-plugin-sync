@@ -91,7 +91,13 @@ const sync = async () => {
               <label
                 v-for="(platform, index) in [
                   { name: 'CSDN', value: 0 },
-                  { name: '博客园', value: 1 }
+                  { name: '博客园', value: 1 },
+                  { name: '简书', value: 2 },
+                  { name: '开源中国', value: 3 },
+                  // { name: '知乎', value: 4 },
+                  { name: '华为云', value: 5 },
+                  // { name: '阿里云', value: 6 },
+                  { name: '腾讯云', value: 7 }
                 ]"
                 :key="index"
                 class="flex items-center space-x-1 cursor-pointer"

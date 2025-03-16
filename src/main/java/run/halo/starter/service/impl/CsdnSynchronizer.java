@@ -1,6 +1,5 @@
 package run.halo.starter.service.impl;
 
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -11,7 +10,6 @@ import java.io.IOException;
 
 @Slf4j
 @Component
-@RequiredArgsConstructor
 public class CsdnSynchronizer  extends ParentSynchronizer implements BlogSynchronizer {
 
 
@@ -28,9 +26,5 @@ public class CsdnSynchronizer  extends ParentSynchronizer implements BlogSynchro
         postRequest = getPostRequest(title, content);
         return postRequest;
     }
-
-
-
-
 
 }
